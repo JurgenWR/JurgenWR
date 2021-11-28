@@ -1,0 +1,21 @@
+//DESAFIOS
+
+function imprimeHasta(n) {
+    if(n < 1){
+        console.log("FALSE");
+    }
+    var arr1 =[];
+    for( x = 1; x <= n; x = x+1){      // escribe tu código aquí
+        arr1.push(x);
+    }
+    console.log(arr1);
+    return arr1;
+    
+}
+
+
+imprimeHasta(1000000); // debe imprimir todos los enteros desde el 1 hasta el 1000000
+y = imprimeHasta(-10); 
+console.log(y); // debe imprimir false
+
+// Me imprime 2 arreglos vacios de más y nose el por que :(
