@@ -1,0 +1,19 @@
+
+function printSum(x) {
+    var sum = 0;
+    
+    for (i =0; i <= x; i = i+1) {     // escribe tu código aquí
+        
+        sum = i
+        
+        console.log(sum);
+
+    }                                    
+    return sum
+
+}
+
+y = printSum(255) // debe imprimir todos los enteros desde el 0 hasta el 255, y la suma parcial en cada punto
+console.log(y) // debe imprimir 32640
+
+// intente usar la formula de la la sumatoria que es (n*(n+1))/2 para que me diera 32640 pero al intentar usarla se me intercalaba el valor 32640 con los numeros del 0 al 255
